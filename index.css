@@ -1,0 +1,270 @@
+#wrapper {
+    background-image: url(SVG/background.svg);
+    position: absolute;
+    width: 1300px;
+    height: 800px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+#boy {
+    width: 320px;
+    position: absolute;
+    bottom: 0px;
+    left: 400px;
+    z-index: 6;
+    transition: 4s;
+}
+#girl {
+    width: 300px;
+    position: absolute;
+    bottom: 0px;
+    left: 850px;
+    z-index: 6;
+    transition: 4s;
+}
+#FLantern {
+    position: absolute;
+    width: 350px;
+    left: 620px;
+    top: 70px;
+    z-index: 5;
+}
+#moon {
+    position: absolute;
+    width: 200px;
+    top: 0;
+    transition: 5s;
+    z-index: 2;
+}
+#title {
+    position: absolute;
+    width: 1000px;
+    right: 10px;
+    top: 100px;
+    display: none;
+    z-index: 4;
+}
+.skylanterns {
+    width: 200px;
+    position: absolute;
+    bottom: -5%;
+}
+#year {
+    width: 200px;
+    position: absolute;
+    left: 650px;
+    top: -100px;
+    z-index: 6;
+    opacity: 0;
+    transition: 5s;
+}
+#enter {
+    width: 300px;
+    bottom: -110px;
+    position: absolute;
+    left: 50%;
+    opacity: 0;
+    transition: 5s;
+    z-index: 4;
+}
+#wrapper2 {
+    background-image: url(SVG/background2.svg);
+    position: absolute;
+    width: 1210px;
+    height: 690px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    display: none;
+}
+#sky {
+    position: absolute;
+    width: 430px;
+    height: 330px;
+    overflow: hidden;
+}
+#table {
+    width: 700px;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+#moon2 {
+    width: 250px;
+    position: absolute;
+}
+#bowl {
+    width: 150px;
+    position: absolute;
+    right: 350px;
+    bottom: 250px;
+}
+#spoon {
+    position: absolute;
+    width: 100px;
+    right: 330px;
+    bottom: 280px;
+}
+#couple {
+    width: 300px;
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+    z-index: 6;
+}
+#lionbody {
+    width: 150px;
+    position: absolute;
+    left: 250px;
+    top: 200px;
+    z-index: 4;
+}
+#lionhead {
+    width: 150px;
+    position: absolute;
+    left: 210px;
+    top: 150px;
+    z-index: 5;
+}
+#lionhead:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+#Blantern {
+    width: 180px;
+    position: absolute;
+    top: 0;
+    left: 600px;
+    z-index: 4;
+}
+#Mlantern {
+    width: 130px;
+    position: absolute;
+    top: 0;
+    left: 450px;
+    z-index: 4;
+}
+#Slantern {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 320px;
+    z-index: 4;
+}
+#handlantern {
+    width: 100px;
+    position: absolute;
+    bottom: 150px;
+    left: 300px;
+    z-index: 2;
+}
+#c15 {
+    width: 150px;
+    position: absolute;
+    top: 80px;
+    right: 100px;
+}
+#c0 {
+    width: 150px;
+    position: absolute;
+    top: 94px;
+    right: 108px;
+}
+#Flyinglantern {
+    width: 50px;
+    position: absolute;
+    z-index: 7;
+    top: 200px;
+    left: 50px;
+}
+#heart {
+    width: 50px;
+    position: absolute;
+    left: 120px;
+    top: 350px;
+    opacity: 0;
+    transition: 1s;
+}
+#items {
+    bottom: 0;
+    right: 0;
+    width: 870px;
+    height: 100px;
+    position: absolute;
+    transition: 1s;
+    background-color: rgba(0,0,0,0.3);
+}
+#open {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -50px;
+    bottom: 0;
+    display: none;
+}
+#close {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -50px;
+    bottom: 0;
+    display: block;
+}
+.shadow {
+    position: relative;
+    height: 100px;
+}
+#fact {
+    width: 1210px;
+    height: 690px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    display: none;
+}
+#facttext {
+    text-align: center;
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 30pt;
+    color: rgba(255, 255, 255, 1.0);
+    font-family: 'Courgette', cursive;
+}
+#closefact {
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+}
